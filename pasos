@@ -1,0 +1,33 @@
+Comandos usados
+
+curl -s http://getcomposer.org/installer | php
+obtener el instaldor
+
+php composer.phar install
+instalar synfony
+
+Dentro de la carpeta Synfony instalada
+php app/check.php
+comprobar los requisitos y necesidades
+
+// borra todo lo que contengan esos directorios
+$ rm -rf app/cache/*
+$ rm -rf app/logs/*
+
+permisos
+$ sudo setfacl -R -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs
+$ sudo setfacl -dR -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs
+
+.gitignore
+para vendors
+
+///------------------------------------------------------------------------
+Para crear un bundle llamado AcmeHelloBundle, bundle no es más que un directorio que almacena todo lo relacionado con una función específica, incluyendo clases PHP, configuración, e incluso hojas de estilo y archivos de Javascript.
+php app/console generate:bundle --namespace=Acme/HelloBundle --format=yml
+
+Dentro se modifica src/Acme/HelloBundle/Resources/config/routing.yml
+para que se dirija al controlador
+
+Crearcontrolador
+
+
