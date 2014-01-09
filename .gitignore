@@ -1,3 +1,4 @@
-/nbproject/private/
-/phpSimple/blogphp/nbproject/private/
-/Synfony/nbproject/private/
+/nbproject/
+/phpSimple/blogphp/nbproject/
+/Synfony/nbproject/
+/Synfony/vendor/
