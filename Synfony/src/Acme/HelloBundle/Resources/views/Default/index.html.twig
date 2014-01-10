@@ -1,1 +1,13 @@
-Hello {{ name }}!
+{# src/Acme/HelloBundle/Resources/views/Hello/index.html.twig #}
+{% extends '::base.html.twig' %}
+{#el pie#}
+{% block title %}Guarra{%endblock%}
+{% block body %}
+    Hello {{ name }}!
+{% endblock %}
+    
+ {#La etiqueta extends indica que se utiliza una plantilla padre donde se define el diseño del sitio web.
+La etiqueta block indica que todo su contenido se debe colocar dentro de un bloque llamado body. Como se 
+explicará más adelante, la plantilla padre (base.html.twig) es la responsable de definir ese bloque y de
+ mostrarlo en la página HTML adecuadamente.#}
+{#    <!-- app/Resources/views/base.html.php -->#}

@@ -1,0 +1,3 @@
+ximo_prueba_bundle_prueba_homepage:
+    pattern:  /ximo/{name}
+    defaults: { _controller: XimoPruebaBundlePruebaBundle:Hola:index }

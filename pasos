@@ -30,4 +30,8 @@ para que se dirija al controlador
 
 Crearcontrolador
 
+//--------------------------------------------------------------------
+
+mod_rewrite  de apache para cambiar la url
+
 

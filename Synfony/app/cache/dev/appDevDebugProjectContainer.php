@@ -2946,6 +2946,7 @@ class appDevDebugProjectContainer extends Container
         $instance->addPath('/var/www/symfony/Synfony/vendor/symfony/swiftmailer-bundle/Symfony/Bundle/SwiftmailerBundle/Resources/views', 'Swiftmailer');
         $instance->addPath('/var/www/symfony/Synfony/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Resources/views', 'Doctrine');
         $instance->addPath('/var/www/symfony/Synfony/src/Acme/HelloBundle/Resources/views', 'AcmeHello');
+        $instance->addPath('/var/www/symfony/Synfony/src/XimoPruebaBundle/PruebaBundle/Resources/views', 'XimoPruebaBundlePrueba');
         $instance->addPath('/var/www/symfony/Synfony/src/Acme/DemoBundle/Resources/views', 'AcmeDemo');
         $instance->addPath('/var/www/symfony/Synfony/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views', 'WebProfiler');
         $instance->addPath('/var/www/symfony/Synfony/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/views', 'SensioDistribution');
@@ -3431,6 +3432,7 @@ class appDevDebugProjectContainer extends Container
                 'DoctrineBundle' => 'Doctrine\\Bundle\\DoctrineBundle\\DoctrineBundle',
                 'SensioFrameworkExtraBundle' => 'Sensio\\Bundle\\FrameworkExtraBundle\\SensioFrameworkExtraBundle',
                 'AcmeHelloBundle' => 'Acme\\HelloBundle\\AcmeHelloBundle',
+                'XimoPruebaBundlePruebaBundle' => 'XimoPruebaBundle\\PruebaBundle\\XimoPruebaBundlePruebaBundle',
                 'AcmeDemoBundle' => 'Acme\\DemoBundle\\AcmeDemoBundle',
                 'WebProfilerBundle' => 'Symfony\\Bundle\\WebProfilerBundle\\WebProfilerBundle',
                 'SensioDistributionBundle' => 'Sensio\\Bundle\\DistributionBundle\\SensioDistributionBundle',

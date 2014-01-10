@@ -1029,6 +1029,7 @@ class appProdProjectContainer extends Container
         $instance->addPath('/var/www/symfony/Synfony/vendor/symfony/swiftmailer-bundle/Symfony/Bundle/SwiftmailerBundle/Resources/views', 'Swiftmailer');
         $instance->addPath('/var/www/symfony/Synfony/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Resources/views', 'Doctrine');
         $instance->addPath('/var/www/symfony/Synfony/src/Acme/HelloBundle/Resources/views', 'AcmeHello');
+        $instance->addPath('/var/www/symfony/Synfony/src/XimoPruebaBundle/PruebaBundle/Resources/views', 'XimoPruebaBundlePrueba');
         $instance->addPath('/var/www/symfony/Synfony/app/Resources/views');
         $instance->addPath('/var/www/symfony/Synfony/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form');
         return $instance;
@@ -1151,6 +1152,7 @@ class appProdProjectContainer extends Container
                 'DoctrineBundle' => 'Doctrine\\Bundle\\DoctrineBundle\\DoctrineBundle',
                 'SensioFrameworkExtraBundle' => 'Sensio\\Bundle\\FrameworkExtraBundle\\SensioFrameworkExtraBundle',
                 'AcmeHelloBundle' => 'Acme\\HelloBundle\\AcmeHelloBundle',
+                'XimoPruebaBundlePruebaBundle' => 'XimoPruebaBundle\\PruebaBundle\\XimoPruebaBundlePruebaBundle',
             ),
             'kernel.charset' => 'UTF-8',
             'kernel.container_class' => 'appProdProjectContainer',

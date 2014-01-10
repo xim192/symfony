@@ -78,5 +78,6 @@
   'DoctrineBundle:Collector:explain.html.twig' => '/var/www/symfony/Synfony/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Resources/views/Collector/explain.html.twig',
   'DoctrineBundle:Collector:db.html.twig' => '/var/www/symfony/Synfony/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Resources/views/Collector/db.html.twig',
   'AcmeHelloBundle:Default:index.html.twig' => '/var/www/symfony/Synfony/src/Acme/HelloBundle/Resources/views/Default/index.html.twig',
+  'XimoPruebaBundlePruebaBundle:Default:index.html.twig' => '/var/www/symfony/Synfony/src/XimoPruebaBundle/PruebaBundle/Resources/views/Default/index.html.twig',
   '::base.html.twig' => '/var/www/symfony/Synfony/app/Resources/views/base.html.twig',
 );
